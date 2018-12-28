@@ -14,9 +14,9 @@
 
 truffle部署的坑太多，最终决定用remix部署，如果需要重新部署请用remix部署，部署方式如下：
 
-1. ./contracts/Project.sol为合约源代码。
-2. 打开MetaMask的一个账户，在remix上进行部署。
-3. 将得到的abi和address放入./client/src/contracts/Project.json相应的标签中即可。
+- ./contracts/Project.sol为合约源代码。
+- 打开MetaMask的一个账户，在remix上进行部署。
+- 将得到的abi和address放入./client/src/contracts/Project.json相应的标签中即可。
 
 ### 关于运行
 
