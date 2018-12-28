@@ -1,8 +1,7 @@
 
 ## DApp 
 
-开发:
-> truffle unbox react
+项目开发: truffle unbox react
 
 测试网络： Rinkkeby
 
@@ -25,4 +24,6 @@ truffle部署的坑太多，最终决定用remix部署，如果需要重新部�
 在client目录下输入
 
 > npm start
+
+如果出现缺少包的情况可以在cient目录下运行nom install <包名> --save，不过node-module中应该已经包含了所有需要的包，不需要再下载了。
 
